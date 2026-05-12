@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from passlib.context import CryptContext
 import sqlite3, json, os, random, anthropic, jwt
 
-app = FastAPI(title="MindForge API v3.0 â€” Multi-User", version="3.0.0")
+app = FastAPI(title="MindForge API Multi-User", version="3.0.0")
 
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
