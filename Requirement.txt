@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+passlib[bcrypt]
+bcrypt==4.0.1
+PyJWT==2.8.0
